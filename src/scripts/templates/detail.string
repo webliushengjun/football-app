@@ -1,0 +1,19 @@
+<div class="yo-loading yo-loading-b">
+    <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+</div>
+<div class="detil">
+	<header class="detail_header">
+		<ul class="detail_header_ul">
+			<li class="yo-ico icon1">&#xf07d;</li>
+			<li>关注</li>
+			<li></li>
+		</ul>
+	</header>
+	<div class="detail_list" ms-visible="!isShowLoading">
+		<ul ms-repeat-obj="livedata">
+			<li>{{title}}</li>
+			<li><img ms-src="obj.img" /></li>
+		</ul>
+	</div>
+</div>
+

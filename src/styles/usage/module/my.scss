@@ -1,0 +1,45 @@
+@import "../../lib/widget/yo-dialog";
+@import "../../lib/core/variables";
+@include yo-dialog(
+	$name:a,
+	$height:2rem
+){
+	.yo-dialog .title{
+		color:#0CC140;
+	}
+	.user,.password{
+		width:100%;
+		span{
+			float:left;
+			margin-top:.2rem;
+			width:30%;
+			text-align:left;
+		}
+		input{
+			margin-top:.2rem;
+			float:left;
+			width:60%;
+		}
+	}
+	.ft button{
+		color:#0f0;
+	}
+	footer button:first-child{
+		color:#0CC140
+	}
+}
+
+/* .password{
+	width:100%;
+	span{
+		float:left;
+		margin-top:.2rem;
+		width:30%;
+	}
+	input{
+		margin-top:.2rem;
+		float:left;
+		width:60%;
+	}
+} */
+

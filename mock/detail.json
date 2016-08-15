@@ -1,0 +1,13 @@
+{
+  "ver": "1.0",
+  "ret": true,
+  "errcode": 0,
+  "errmsg": "",
+  "list":[
+    {
+      "id":1,
+      "imgsrc":"./course-webapp/images/img1.jpg",
+      "title":"refresh-朴智星:韩国战中国需做好准备 优异战绩是过去式"
+    }
+  ]
+}

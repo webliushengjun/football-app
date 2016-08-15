@@ -1,0 +1,107 @@
+<div class="m-home">
+	<header class="header">
+		<ul class="header_ul">
+			<li class="yo-ico icon1">&#xe745;</li>
+			<li action-type="switch.hot" class="li back">热点</li>
+			<li action-type="switch.hot" class="li">关注</li>
+			<li class="yo-ico icon2">&#xe684;</li>
+		</ul>
+	</header>
+	<div class="swiper-container" id="home-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<main class="main">
+					<ul class="nav">
+						<li action-type="switch.navs" class="green">足球现场</li>
+						<li action-type="switch.navs">足球生活</li>
+						<li action-type="switch.navs">足球美女</li>
+					</ul>
+				</main>
+				<section class="section swiper-container" >
+					<!-- spa-widget="scroll"属性是给该盒子加上局部滚动 -->
+					<div class="swiper-container" id="swiper_container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide" spa-widget="scroll" data-scroll-id="homeListScroll">
+								<div class="xianchang">
+									<div id="up">
+										<p>
+											<img src="/football-app/images/ajax-loader.gif" id="up_img"/><span>下拉刷新</span>
+										</p>
+									</div>
+									<ul class="sec_ul" id="sec_ul" >
+										<li ms-repeat-obj="livedata">
+											<dl action-type="goto.detail" ms-attr-data-id="obj[0].id">
+												<dt><img ms-src='obj[0].img'/></dt>
+												<dd ms-text="obj[0].title"></dd>
+											</dl>
+											<dl ms-class-hide="!obj[1]" action-type="goto.detail" ms-attr-data-id="obj[0].id">
+												<dt><img ms-src='obj[1].img'/></dt>
+												<dd ms-text="obj[1].title"></dd>
+											</dl>
+										</li>
+									</ul>
+									<div id="down">
+										<p>
+											<img src="/football-app/images/ajax-loader.gif" id="down_img"/><span>上拉加载</span>
+										</p>
+									</div>
+									<div class="bottom"></div>
+								</div>
+							</div>
+							<div class="swiper-slide" spa-widget="scroll">
+								<ul class="sec_ul" id="sec_ul2">
+									<li>    足球生活</li>
+								</ul>
+							</div>
+							<div class="swiper-slide" spa-widget="scroll">
+								<ul class="sec_ul" id="sec_ul3">
+									<li>    足球美女</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="swiper-slide">
+				<section class="attention">
+            		<div>
+             			<ul class="att_box">
+                			<li class="first_li">
+                  				<img src="/football-app/course-webapp/images/Pikachu.jpg"/>
+                			</li>
+                			<li class="zan">
+                			</li>
+              			</ul>
+              			<img src="/football-app/course-webapp/images/img1.jpg">
+              			<p>小丸子呀小丸子</p>
+            		</div>
+          		</section>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

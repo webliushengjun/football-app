@@ -1,0 +1,22 @@
+<!-- <header class="find_header">
+	<ul class="findheader_ul">
+		<li class="yo-ico icon1">&#xe745;</li>
+		<li>发现</li>
+	</ul>
+</header>
+<main class="find_main">
+	<section class="find_sec1">
+		<input type="text" placeholder="请输入昵称" class="find_input"/>
+		<button class="find_cancel">取消</button>
+	</section>
+</main> -->
+<div class="actionsheet">
+	<div class="menu">
+		<h3 class="title">保存图片</h3>
+		<div class="item">存储图像</div>
+		<div class="item">拷贝</div>
+	</div>
+	<ul class="action">
+		<li class="item">取消</li>
+	</ul>
+</div>

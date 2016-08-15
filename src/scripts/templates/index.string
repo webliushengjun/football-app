@@ -1,0 +1,16 @@
+<div id="container">
+	<!-- 头部 -->
+	<div class="content m-index">
+		
+	</div>
+	<!-- 尾部 -->
+	<footer class="footer">
+		<ul class="footer_ul">
+			<li action-type="switch.tabs" data-tag="home" class="left active"><i class="yo-ico">&#xe6bb;</i><p>首页</p></li>
+			<li action-type="switch.tabs" data-tag="find" class="left"><i class="yo-ico">&#xe65c;</i><p>发现</p></li>
+			<li class="icm"><i class="yo-ico">&#xe664;</i></li>
+			<li action-type="switch.tabs" class="right"><i class="yo-ico">&#xe603;</i><p>退出</p></li>
+			<li action-type="goto.my" data-tag="my" class="right"><i class="yo-ico">&#xe735;</i><p>我的</p></li>
+		</ul>
+	</footer>
+</div>
