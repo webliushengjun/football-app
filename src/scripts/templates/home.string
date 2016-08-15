@@ -12,7 +12,7 @@
 			<div class="swiper-slide">
 				<main class="main">
 					<ul class="nav">
-						<li action-type="switch.navs" class="green">足球现场</li>
+						<li action-type="switch.navs" class="green">一二三四</li>
 						<li action-type="switch.navs">足球生活</li>
 						<li action-type="switch.navs">足球美女</li>
 					</ul>
