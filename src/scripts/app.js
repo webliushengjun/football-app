@@ -9,3 +9,4 @@ require("./views/detail");
 SPA.config({
 	indexView:"20160816bug"
 })
+console.log("hello 20160816bug")
