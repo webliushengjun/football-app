@@ -7,5 +7,5 @@ require("./views/find");
 require("./views/home");
 require("./views/detail");
 SPA.config({
-	indexView:"20160816bug"
+	indexView:"index"
 })
